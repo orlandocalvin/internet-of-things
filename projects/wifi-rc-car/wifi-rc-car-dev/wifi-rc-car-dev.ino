@@ -15,7 +15,7 @@ AsyncWebServer server(80);
 // set AP variable
 const char* ssid = "ESP8266 RC CAR";
 const char* password = "zxcvbnmv";
-const int channel = 6, max_connections = 1;
+const int channel = 6, max_connections = 2;
 bool hidden = false;
 
 void setup(){
